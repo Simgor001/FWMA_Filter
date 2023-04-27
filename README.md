@@ -20,7 +20,10 @@
 ![模拟（线性）](https://blog.simgor.cn/img/github/%E6%A8%A1%E6%8B%9F%EF%BC%88%E7%BA%BF%E6%80%A7%EF%BC%89.jpg)
 
 # 使用说明
-下面的例子主控为CH32V203，其他主控请参考修改。
+下面的例子主控为CH32V203，配合CS1237读取数据，其他主控请参考修改。
+
+CS1237库[详情见此](https://github.com/Simgor001/CS1237)
+
 ## 使用流程
 - 设置队列长度```FWMA_LEN```
 - 调用```FWMA_Init```函数，设置存储地址和参数
