@@ -22,7 +22,7 @@
 # 使用说明
 下面的例子主控为CH32V203，配合CS1237读取数据，其他主控请参考修改。
 
-CS1237库[详情见此](https://github.com/Simgor001/CS1237)
+[CS1237库详情见此](https://github.com/Simgor001/CS1237)
 
 ## 使用流程
 - 设置队列长度```FWMA_LEN```
