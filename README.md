@@ -15,9 +15,9 @@
 ## 模拟
 该算法预先使用Python实现，然后移植到C语言上，下面是模拟的效果
 ### 方波
-![模拟（方波）](https://blog.simgor.cn/img/github/%E6%A8%A1%E6%8B%9F%EF%BC%88%E6%96%B9%E6%B3%A2%EF%BC%89.jpg)
+![模拟（方波）](https://mirror.simgor.cn/img/github/%E6%A8%A1%E6%8B%9F%EF%BC%88%E6%96%B9%E6%B3%A2%EF%BC%89.jpg)
 ### 线性
-![模拟（线性）](https://blog.simgor.cn/img/github/%E6%A8%A1%E6%8B%9F%EF%BC%88%E7%BA%BF%E6%80%A7%EF%BC%89.jpg)
+![模拟（线性）](https://mirror.simgor.cn/img/github/%E6%A8%A1%E6%8B%9F%EF%BC%88%E7%BA%BF%E6%80%A7%EF%BC%89.jpg)
 
 # 使用说明
 下面的例子主控为CH32V203，配合CS1237读取数据，其他主控请参考修改。
@@ -59,9 +59,9 @@ FWMA_Init(&FWMA_s, FWMA_fifo, FWMA_buf, &FWMA_InitStruct);
 ```
 # 实际效果
 ## 直流
-![直流](https://blog.simgor.cn/img/github/%E5%AE%9E%E9%99%85%E9%87%87%E6%A0%B7%EF%BC%88%E7%9B%B4%E6%B5%81%EF%BC%89.jpg)
+![直流](https://mirror.simgor.cn/img/github/%E5%AE%9E%E9%99%85%E9%87%87%E6%A0%B7%EF%BC%88%E7%9B%B4%E6%B5%81%EF%BC%89.jpg)
 ## 锯齿波
-![锯齿波](https://blog.simgor.cn/img/github/%E5%AE%9E%E9%99%85%E9%87%87%E6%A0%B7%EF%BC%88%E9%94%AF%E9%BD%BF%E6%B3%A2%EF%BC%89.jpg)
+![锯齿波](https://mirror.simgor.cn/img/github/%E5%AE%9E%E9%99%85%E9%87%87%E6%A0%B7%EF%BC%88%E9%94%AF%E9%BD%BF%E6%B3%A2%EF%BC%89.jpg)
 
 # 开发使用的工具
 [MounRiver](http://www.mounriver.com/)
